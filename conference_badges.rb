@@ -25,6 +25,10 @@ def printer(array)
     puts do_it
   end
   
-  assign_rooms(array).each do |
+  assign_rooms(array).each do |do_it|
+    puts do_it
+  end
+end
+
   
   
