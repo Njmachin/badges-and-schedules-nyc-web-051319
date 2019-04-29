@@ -21,5 +21,8 @@ def assign_rooms(list_speakers)
 end
 
 def printer(array)
+  batch_badge_creator(array).each do |do_it|
+    puts do_it
+    
   
   
